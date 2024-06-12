@@ -1,0 +1,40 @@
+.footer {
+    min-height: 10vh;
+    background: #101820FF;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2 {
+        color: white;
+        flex: 3;
+        font-size: 1.5rem;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        a {
+            color: white;
+            font-size: 2rem;
+        }
+    }
+}
+
+.footer ul a:hover {
+    color: #FCEA3C;
+}
+
+@media screen and (max-width: 1050px) {
+    .footer li {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer h2,
+    ul {
+        flex: 1;
+    }
+}
